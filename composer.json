@@ -1,0 +1,26 @@
+{
+    "name": "saigote/tiendavirtual",
+    "description": "Proyecto de tienda virtual",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Daniel Castillo",
+            "email": "dd.c.salvador89@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\" : "app/",
+            "Core\\" : "core/"
+        },
+        "files": [
+            
+        ]
+    },
+    "require": {
+        "symfony/http-foundation": "^6.4",
+        "illuminate/database": "^10.48",
+        "illuminate/events": "^10.48"
+    }
+}
